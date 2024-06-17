@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="562b4b96-4e7e-4c11-a229-fa5a2e95560d" name="Changes" comment="Update modules and workspace">
-      <change afterPath="$PROJECT_DIR$/02 - KeywordsAndExpressions/src/IfKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 - KeywordsAndExpressions/src/Indenting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 - KeywordsAndExpressions/src/MainChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 - KeywordsAndExpressions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/02 - KeywordsAndExpressions/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,21 +72,21 @@
   <component name="RunManager" selected="Application.MainChallenge">
     <configuration name="IfKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IfKeyword" />
-      <module name="02 - KeywordsAndExpressions" />
+      <module name="02 - ExpressionsStatements" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Indenting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Indenting" />
-      <module name="02 - KeywordsAndExpressions" />
+      <module name="02 - ExpressionsStatements" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainChallenge" />
-      <module name="02 - KeywordsAndExpressions" />
+      <module name="02 - ExpressionsStatements" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718647194224</updated>
-      <workItem from="1718647195276" duration="3444000" />
+      <workItem from="1718647195276" duration="4023000" />
     </task>
     <task id="LOCAL-00001" summary="Create monorepo">
       <option name="closed" value="true" />
@@ -176,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718648391362</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update modules and workspace">
+      <option name="closed" value="true" />
+      <created>1718653784728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718653784728</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
