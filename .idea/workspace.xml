@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="562b4b96-4e7e-4c11-a229-fa5a2e95560d" name="Changes" comment="Update modules and workspace">
+    <list default="true" id="562b4b96-4e7e-4c11-a229-fa5a2e95560d" name="Changes" comment="Update files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 - ExpressionsStatements/src/MainChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/02 - ExpressionsStatements/src/MainChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718647194224</updated>
-      <workItem from="1718647195276" duration="4879000" />
+      <workItem from="1718647195276" duration="5901000" />
     </task>
     <task id="LOCAL-00001" summary="Create monorepo">
       <option name="closed" value="true" />
@@ -204,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718654204278</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update files">
+      <option name="closed" value="true" />
+      <created>1718655076729</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718655076729</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +240,7 @@
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="update readme" />
     <MESSAGE value="Update modules and workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update modules and workspace" />
+    <MESSAGE value="Update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update files" />
   </component>
 </project>

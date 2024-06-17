@@ -74,7 +74,7 @@ public static void methodName(p1type p1, p2type p2, {more}) {
 ### Parameters or Arguments?
 
 Parameters and arguments are terms that are often used interchangeably by developers.
-But technically, a parameter is the definition as shown in the method declaration, and the argument will be the value that's passed to the method when we call it.
+But technically, a **parameter is the definition as shown in the method declaration**, and the **argument will be the value that's passed to the method** when we call it.
 
 ### Executing a Method with parameters
 
@@ -86,3 +86,4 @@ So we have to pass first a boolean, and then 3 int values as shown in this state
 calculateScore(true, 800, 5, 100);
 ```
 I can't pass the boolean type in any place, other than as the first argument, without an error.
+
