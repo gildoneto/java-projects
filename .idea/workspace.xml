@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="562b4b96-4e7e-4c11-a229-fa5a2e95560d" name="Changes" comment="Update modules and workspace">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718647194224</updated>
-      <workItem from="1718647195276" duration="4023000" />
+      <workItem from="1718647195276" duration="4879000" />
     </task>
     <task id="LOCAL-00001" summary="Create monorepo">
       <option name="closed" value="true" />
@@ -180,7 +180,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718653784728</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add gitignore">
+      <option name="closed" value="true" />
+      <created>1718654125070</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718654125070</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update readme">
+      <option name="closed" value="true" />
+      <created>1718654148472</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718654148472</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update modules and workspace">
+      <option name="closed" value="true" />
+      <created>1718654204278</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718654204278</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +228,8 @@
     <MESSAGE value="Adds workspace.xml and change README title" />
     <MESSAGE value="Rename project" />
     <MESSAGE value="Create KeywordsAndExpressions module" />
+    <MESSAGE value="Add gitignore" />
+    <MESSAGE value="update readme" />
     <MESSAGE value="Update modules and workspace" />
     <option name="LAST_COMMIT_MESSAGE" value="Update modules and workspace" />
   </component>
