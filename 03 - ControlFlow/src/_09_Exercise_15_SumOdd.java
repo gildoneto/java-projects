@@ -1,4 +1,4 @@
-public class _09_SumOddExercise {
+public class _09_Exercise_15_SumOdd {
     public static void main(String[] args) {
         System.out.println(sumOdd(1, 100));
     }
