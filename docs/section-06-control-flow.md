@@ -150,3 +150,13 @@ These parts are all optional and consist of the following:
 
 A break statement transfers control out of an enclosing statement.
 We've seen the break statement in the switch statement, but it can also be used in a loop.
+
+## While loops
+
+- `while`: continue executing code block until the loop expression becomes false.
+- `do while`: always executes at least once, and then continues executing code block until the loop expression becomes false.
+
+### continue
+
+The continue statement, in its simplest form, will stop executing the current iteration of a block of code in a loop,
+and start the next iteration of the loop.
