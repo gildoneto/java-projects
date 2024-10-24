@@ -160,3 +160,19 @@ We've seen the break statement in the switch statement, but it can also be used 
 
 The continue statement, in its simplest form, will stop executing the current iteration of a block of code in a loop,
 and start the next iteration of the loop.
+
+## Static and Instance fields
+
+| Static field                                                                  | Instance field                                                                                                                                                                     |
+|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Requires `static` keyword when declared on the class                          | Omit `static` keyword when declared on the class                                                                                                                                   |
+| Value of the field is stored in special memory location and only in one place | Value of the field is not allocated any memory and has no value until the object is created                                                                                        |
+| Value is accessed by `ClassName.fieldName` Ex: `Integer.MAX_VALUE`            | Value is accessed by `ObjectVariable.fieldName` Ex: `myObj.myFieldName` <br/>(`myObj` is our variable name for an object we create and `myFieldName` is an attribute on the class) |
+
+
+| Static method                                                               | Instance method                                                                          |
+|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Requires `static` keyword when declared on the class                        | Omit `static` keyword when declared on the class                                         |
+| Method is accessed by `ClassName.methodName` Ex: `Integer.parseInt("123");` | Method is accessed by `ObjectVariable.methodName` Ex: `"hello".toUpperCase();`           |
+| A method called `parseInt` is called directly from the Class `Integer`      | A method called `toUpperCase` is called on the instance of a String with value `"hello"` |
+
