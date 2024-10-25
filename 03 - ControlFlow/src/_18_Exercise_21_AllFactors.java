@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class _18_Exercise_21_AllFactors {
     public static void main(String[] args) {
         printFactors(6);
