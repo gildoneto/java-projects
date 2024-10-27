@@ -176,3 +176,20 @@ and start the next iteration of the loop.
 | Method is accessed by `ClassName.methodName` Ex: `Integer.parseInt("123");` | Method is accessed by `ObjectVariable.methodName` Ex: `"hello".toUpperCase();`           |
 | A method called `parseInt` is called directly from the Class `Integer`      | A method called `toUpperCase` is called on the instance of a String with value `"hello"` |
 
+## Parsing values and reading input using `System.console()`
+
+When we read data in from either a file or from user input, it's common for the data to be initially stored as a `String`, which we'll need to convert to a numeric value.
+
+| Wrapper   | Wrapper Method        |
+|-----------|-----------------------|
+| `Integer` | `parseInt(String)`    |
+| `Double`  | `parseDouble(String)` |
+
+## Reading data from console
+
+| Technique   | Description                                                                                                                                                                                              |
+|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `System.in` | Like System.out, Java provides System.in which can read input from the console or terminal. <br>It’s not easy to use for beginners, and lots of code has been built around it, to make it easier.        |
+| `System.console`  | This is Java’s solution for easier support for reading a single line and prompting user for information.<br> Although this is easy to use, it doesn’t work with IDE’s because these environments disable it. |
+| Command Line Arguments  | This is calling the Java program and specifying data in the call. <br>This is very commonly used but doesn’t let us create an interactive application in a loop in Java.                                     |
+| `Scanner`  | The Scanner class was built to be a common way to read input, either using System.in or a file. <br>For beginners, it’s much easier to understand than the bare bones System.in                              |
