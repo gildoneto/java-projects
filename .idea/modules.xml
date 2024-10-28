@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01 - HelloWorld/01 - HelloWorld.iml" filepath="$PROJECT_DIR$/01 - HelloWorld/01 - HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02 - ExpressionsStatements/02 - ExpressionsStatements.iml" filepath="$PROJECT_DIR$/02 - ExpressionsStatements/02 - ExpressionsStatements.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03 - ControlFlow/03 - ControlFlow.iml" filepath="$PROJECT_DIR$/03 - ControlFlow/03 - ControlFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" filepath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ExpressionsStatements/02_ExpressionsStatements.iml" filepath="$PROJECT_DIR$/02_ExpressionsStatements/02_ExpressionsStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_ControlFlow/03_ControlFlow.iml" filepath="$PROJECT_DIR$/03_ControlFlow/03_ControlFlow.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-projects.iml" filepath="$PROJECT_DIR$/java-projects.iml" />
     </modules>
   </component>
