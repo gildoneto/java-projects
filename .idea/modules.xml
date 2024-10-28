@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" filepath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_ExpressionsStatements/02_ExpressionsStatements.iml" filepath="$PROJECT_DIR$/02_ExpressionsStatements/02_ExpressionsStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_ControlFlow/03_ControlFlow.iml" filepath="$PROJECT_DIR$/03_ControlFlow/03_ControlFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_OOP_Inheritance/04_OOP_Inheritance.iml" filepath="$PROJECT_DIR$/04_OOP_Inheritance/04_OOP_Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-projects.iml" filepath="$PROJECT_DIR$/java-projects.iml" />
     </modules>
   </component>
