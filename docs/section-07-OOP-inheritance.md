@@ -133,3 +133,28 @@ Encapsulation in Object-Oriented Programming usually has two meanings.
 One is the bundling of behavior and attributes on a single object.
 
 The other is the practice of hiding fields and some methods from public access.
+
+## What is null?
+
+`null` is a special keyword in Java, meaning, the variable or attribute has a type but no reference to an object.
+
+This means that no instance or object is assigned to the variable or field.
+
+Fields with primitive data types are never null.
+
+## Default values for fields on classes
+
+Fields on classes are assigned default values automatically by Java, if you don't assign values yourself.
+
+| Datatype                                 | Default value assigned |
+|------------------------------------------|------------------------|
+| boolean                                  | false                  |
+| byte <br>short <br>int <br>long <br>char | 0                      |
+| double <br>float                         | 0.0                    |
+
+## What are getters and setters? Why should we use them?
+
+A **getter** is a method on a class that retrieves the value of a private field and returns it.  
+A **setter** is a method on a class that sets the value of a private field.   
+
+The purpose of these methods is to control and protect access to private fields.
