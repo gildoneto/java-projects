@@ -200,3 +200,21 @@ You can only use constructor chaining, within constructors.
 
 You must use the special statement `this()` to execute another constructor, passing it arguments if required.
 And `this()` must be the first executable statement if it's used from another constructor.
+
+## Reference vs Object vs Instance vs Class
+
+By now, you've probably noticed that I use the words reference, object, instance and class frequently.
+These new concepts may well be confusing at first.
+
+- You create an object by ‘instantiating a class’
+- You can create many objects using a single class. Each may have unique attributes or values
+- Object and instance are interchangeable terms
+
+Let's use the analogy of building a house to understand classes.
+A class is basically a blueprint for the house.
+Using the blueprint, we can build as many houses as we like based on those plans.
+Each house we build (in other words, going back to programming terms, each house we instantiate using the new operator) is an object.
+This object can also be known as an instance. Often, we'll say it's an instance of the class.  So, we would have an instance of house in this example.
+Getting back to the physical world, each house we build has an address (it's built at a physical location).
+In other words, if we want to tell someone where we live, we give them our address (perhaps written on a piece of paper). This is known as a reference.
+
