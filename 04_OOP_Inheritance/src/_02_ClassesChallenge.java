@@ -1,16 +1,27 @@
 public class _02_ClassesChallenge {
     public static void main(String[] args) {
-        Bank bank = new Bank();
-        bank.setCustomerName("John");
-        bank.setAccountNumber(123456);
-        bank.setAccountBalance(1000);
-        bank.setEmail("john@mail.com");
-        bank.setPhoneNumber("1234567890");
 
-        bank.depositFunds(500);
-        System.out.println(bank.depositFunds(-1600));
-        System.out.println(bank.withdrawFunds());
-        System.out.println(bank.resumeAccount());
+        Account bobsAccount = new Account("122345", 1000.00,
+                "Bob Brown", "myemail@bob.com",
+                "(087) 123-4567");
+
+//        bobsAccount.setCustomerName("John");
+//        bobsAccount.setNumber("123456");
+//        bobsAccount.setBalance(1000);
+//        bobsAccount.setCustomerEmail("john@mail.com");
+//        bobsAccount.setCustomerPhone("1234567890");
+
+        bobsAccount.withdrawFunds(100.0);
+        bobsAccount.depositFunds(250);
+        bobsAccount.withdrawFunds(50);
+
+        bobsAccount.withdrawFunds(200);
+
+        bobsAccount.depositFunds(100);
+        bobsAccount.withdrawFunds(45.55);
+        bobsAccount.withdrawFunds(54.46);
+
+        bobsAccount.withdrawFunds(54.45);
 
     }
 }
