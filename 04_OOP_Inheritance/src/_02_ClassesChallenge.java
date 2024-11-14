@@ -1,10 +1,11 @@
 public class _02_ClassesChallenge {
     public static void main(String[] args) {
 
-        Account bobsAccount = new Account("122345", 1000.00,
-                "Bob Brown", "myemail@bob.com",
-                "(087) 123-4567");
+//        Account bobsAccount = new Account("122345", 1000.00,
+//                "Bob Brown", "myemail@bob.com",
+//                "(087) 123-4567");
 
+        Account bobsAccount = new Account();
 //        bobsAccount.setCustomerName("John");
 //        bobsAccount.setNumber("123456");
 //        bobsAccount.setBalance(1000);
@@ -22,6 +23,9 @@ public class _02_ClassesChallenge {
         bobsAccount.withdrawFunds(54.46);
 
         bobsAccount.withdrawFunds(54.45);
+
+        Account timsAccount = new Account("Tim", "tim@email.com", "12345");
+        System.out.println(timsAccount.resumeAccount());
 
     }
 }

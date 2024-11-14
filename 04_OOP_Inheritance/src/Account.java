@@ -6,6 +6,8 @@ public class Account {
     private String customerPhone;
 
     public Account() {
+        this("56789", 2.50, "Default Name",
+                "Default Address", "Default Phone");
         System.out.println("Empty constructor called");
     }
 
@@ -16,6 +18,13 @@ public class Account {
         this.customerName = customerName;
         customerEmail = email;
         customerPhone = phone;
+    }
+
+    public Account(String customerName, String customerEmail, String customerPhone) {
+        this("99999", 100.55, customerName, customerEmail, customerPhone);
+//        this.customerName = customerName;
+//        this.customerEmail = customerEmail;
+//        this.customerPhone = customerPhone;
     }
 
     public void depositFunds(double depositAmount) {
