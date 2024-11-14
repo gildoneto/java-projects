@@ -11,7 +11,7 @@ public class Bank {
     }
 
     public String withdrawFunds() {
-        double currentBalance = this.accountBalance;
+        double currentBalance = accountBalance;
         if (currentBalance <= 0) {
             return "You can't withdraw. Your current balance is: " + currentBalance;
         } else {
