@@ -1,9 +1,9 @@
 public class Bank {
-    int accountNumber;
-    float accountBalance;
-    String customerName;
-    String email;
-    String phoneNumber;
+    private int accountNumber;
+    private double accountBalance;
+    private String customerName;
+    private String email;
+    private String phoneNumber;
 
     public String depositFunds(float depositAmount) {
         accountBalance += depositAmount;
@@ -11,7 +11,7 @@ public class Bank {
     }
 
     public String withdrawFunds() {
-        float currentBalance = accountBalance;
+        double currentBalance = this.accountBalance;
         if (currentBalance <= 0) {
             return "You can't withdraw. Your current balance is: " + currentBalance;
         } else {
@@ -21,11 +21,11 @@ public class Bank {
     }
 
     public String resumeAccount() {
-        return "Account Number: " + accountNumber + "\n" +
-                "Account Balance: " + accountBalance + "\n" +
-                "Customer Name: " + customerName + "\n" +
-                "Email: " + email + "\n" +
-                "Phone Number: " + phoneNumber;
+        return "Account Number: " + getAccountNumber() + "\n" +
+                "Account Balance: " + getAccountBalance() + "\n" +
+                "Customer Name: " + getCustomerName() + "\n" +
+                "Email: " + getEmail() + "\n" +
+                "Phone Number: " + getPhoneNumber();
     }
 
     public int getAccountNumber() {
@@ -36,8 +36,8 @@ public class Bank {
         this.accountNumber = accountNumber;
     }
 
-    public float getAccountBalance() {
-        return accountBalance;
+    public double getAccountBalance() {
+        return this.accountBalance;
     }
 
     public void setAccountBalance(float accountBalance) {

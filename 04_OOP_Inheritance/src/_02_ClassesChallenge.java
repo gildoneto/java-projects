@@ -10,6 +10,7 @@ public class _02_ClassesChallenge {
         bank.depositFunds(500);
         System.out.println(bank.depositFunds(-1600));
         System.out.println(bank.withdrawFunds());
+        System.out.println(bank.resumeAccount());
 
     }
 }
